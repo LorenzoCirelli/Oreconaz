@@ -1,0 +1,154 @@
+body{
+    background: #1f1f1f;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.interessa h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    font-size: 350%; 
+    top:5%;
+}
+.ricerca input{
+    left:15%;
+    width: 60%;
+    position: absolute;
+    height: 5%;
+    padding: 30px;
+    border-radius: 20px;
+    border: solid 1px transparent;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.mostra{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    border: solid 10px #0088ff;
+    background-color: #0088ff;
+    color:white;
+    font-size: 120%;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.mostra:hover{
+    border: solid 10px #0f7fe0;
+    background-color: #0f7fe0;
+}
+#mega_container{
+    visibility: hidden;
+}
+
+#mega_container.cliccato{
+    visibility: visible;
+}
+#mega_container a{
+    color:white;
+    word-spacing: 0.5 em;
+}
+.alt{
+    letter-spacing: 0.5 em;
+    color: aliceblue;
+    font-size: 110%;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    top: 0px;
+    left: 0px;
+    border-bottom: solid lightseagreen 5px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(130, 153, 177);
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.alt h2{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+#scriuttura a{
+    position: absolute;
+}
+#scrittura{
+    text-align: center;
+    width: 100%;
+}
+#errori{
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    background-color: red;
+    width:50%;
+    height: fit-content;
+    left:25%;
+    text-align: center;
+}
+#ouerr{
+    position: absolute;
+     width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 310px;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    color:white;
+    font-size: 200%;
+    text-align: center;
+    visibility: hidden;
+}
+#ouerr.visibile{
+    visibility: visible;
+}
+.tutto{
+    font-size: 50%;
+    background-color: rgba(52, 126, 196, 0.904);
+    color: white;
+    border: 1px transparent solid;
+    border-radius: 20px ;
+    padding:10px;
+    cursor: pointer;
+}
+.tutto:hover{
+    background-color: rgba(31, 131, 224, 0.904);
+}
+#scrittura a{
+    position: absolute;
+}
+.res p{
+    color:white;
+    text-align: center;
+    position: relative;
+}
+.alt button{
+    background-color: white;
+    color:black;
+    font-size: 100%;
+    padding:5px;
+    border-radius: 20px;
+    border: solid 1px transparent;
+    cursor: pointer;
+}
+.alt button:hover{
+    background-color: rgb(238, 235, 235);
+}
+
+.bottone{
+    background:linear-gradient(to right, rgb(0, 162, 255),blue);
+    border: 1px solid transparent;
+    color:white;
+    padding: 13px;
+    border-radius: 20px;
+    font-size: 110%;
+    cursor:pointer;
+}
